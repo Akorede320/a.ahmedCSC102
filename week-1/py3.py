@@ -1,0 +1,6 @@
+PMT = int(input("ENTER VALUE OF PMT:"))
+R = int(input("ENTER VALUE OF R:"))
+n = int(input("ENTER VALUE OF n:"))
+t = int(input("ENTER VALUE OF t:"))
+A = PMT * (((1+(R/n))**(n*t))-1)/(R/n)
+print("AMOUNT:",A)

@@ -1,0 +1,5 @@
+p = int(input("ENTER VALUE OF P:"))
+R = int(input("ENTER VALUE OF R:"))
+T = int(input("ENTER VALUE OF T:"))
+A = p * (1+(R/100)*T)
+print("AMOUNT:",A)

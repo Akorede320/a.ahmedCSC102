@@ -1,0 +1,6 @@
+p = int(input("ENTER VALUE OF P:"))
+R = int(input("ENTER VALUE OF R:"))
+n = int(input("ENTER VALUE OF n:"))
+t = int(input("ENTER VALUE OF t:"))
+A = p * ((1+(R/n))**(n*t))
+print("AMOUNT:",A)
